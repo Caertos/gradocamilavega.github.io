@@ -221,8 +221,7 @@ body {
   }
 
   #mensaje {
-    left: -10%;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
 }
@@ -282,8 +281,8 @@ body {
   }
 
   #mensaje {
-    left: -10%;
-    font-size: 2rem;
+    left: -20%;
+    font-size: 3rem;
   }
 }
 
@@ -335,7 +334,7 @@ body {
   }
 
   #mensaje {
-    left: -10%;
-    font-size: 2rem;
+    left: -20%;
+    font-size: 3rem;
   }
 }
