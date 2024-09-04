@@ -1,4 +1,4 @@
-const graduationDate = new Date("Sep 4, 2024 00:00:00").getTime();
+const graduationDate = new Date("Sep 13, 2024 00:00:00").getTime();
 
 const interval = setInterval(function() {
 
