@@ -135,6 +135,7 @@ body {
 /*Estilos de la Cuenta Regresiva*/
 #cuentaRegresiva {
   position: relative;
+  left: 20%;
   width: 100%;
   height: auto;
   text-align: center;
@@ -151,13 +152,10 @@ body {
 }
 
 #cuentaRegresiva table {
-  width: 100%;
+  width: 60%;
   border-collapse: collapse;
-  border-spacing: 0 0;
-}
-
-#cuentaRegresiva td {
-  padding: 0;
+  border: 0px;
+  border-spacing: 5px 0;
 }
 
 #cuentaRegresiva p {
@@ -166,6 +164,8 @@ body {
 
 #cuentaRegresiva .digitos{
   font: normal normal 800 4.375rem "Open Sans";
+  margin: 0;
+  padding: 0;
 }
 
 #tarjeta{
@@ -195,17 +195,17 @@ body {
   }
 
   #cuentaRegresiva .digitos {
-    font-size: 3.5rem;
+    font-size: calc(4rem + 3vw);
   }
 
   #indicadores{
-    font-size: 2.5rem;
+    font-size: calc(1rem + 3vw);
   }
 
   #partGrad {
-    font-size: calc(0.5rem + 1.2vw);
-    top: 65%;
-    left: calc(35vw);
+    font-size: calc(1.5rem + 1.2vw);
+    top: 63%;
+    left: calc(32vw);
   }
 
   #camila {
@@ -250,11 +250,11 @@ body {
   }
 
   #cuentaRegresiva .digitos {
-    font-size: 3.5rem;
+    font-size: calc(4rem + 3vw);
   }
 
   #indicadores{
-    font-size: 2.5rem;
+    font-size: calc(1rem + 3vw);
   }
 
   .marcoFotos {
@@ -265,9 +265,9 @@ body {
   }
 
   #partGrad {
-    font-size: calc(0.5rem + 1.2vw);
-    top: 65%;
-    left: calc(35vw);
+    font-size: calc(1.5rem + 1.2vw);
+    top: 63%;
+    left: calc(32vw);
   }
 
   #camila {
@@ -290,7 +290,7 @@ body {
 /* Estilos para dispositivos medianos como tablets y iPads */
 @media (min-width: 769px) and (max-width: 938px){
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .textType1 {
@@ -310,17 +310,17 @@ body {
   }
 
   #cuentaRegresiva .digitos {
-    font-size: 3.5rem;
+    font-size: calc(4rem + 3vw);
   }
 
   #indicadores{
-    font-size: 2.5rem;
+    font-size: calc(1rem + 3vw);
   }
-  
+
   #partGrad {
-    font-size: calc(0.5rem + 1.2vw);
-    top: 65%;
-    left: calc(35vw);
+    font-size: calc(1.5rem + 1.2vw);
+    top: 63%;
+    left: calc(32vw);
   }
 
   #camila {
