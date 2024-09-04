@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  max-width: 1080px;
+}
+
+/*Estilo de los contenedores*/
+#container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  background-color: #efdbd9;
+}
+
+#contenedorSuperior {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  min-height: 300px;
+}
+
+#contenedorMedio {
+  height: auto;
+  width: 100%;
+  background-color: #f9f6f2;
+}
+
+#contenedorFinal {
+  position: relative;
+  background-color: #f3e6e2;
+  height: auto;
+  width: 100%;
+  margin-top: 10%;
+}
+
+#soloParaColor{
+  background-color: #f9f6f2;
+}
+
+/*Estilo de los textos*/
+
+.textType1 {
+  text-align: center;
+  font: normal normal bold 1.875rem "Open Sans";
+  letter-spacing: 0px;
+  color: #9c8885;
+  text-transform: uppercase;
+  opacity: 1;
+  z-index: 2;
+}
+
+.textType2 {
+  text-align: center;
+  font: normal normal normal 6.875rem "Berkshire Swash";
+  letter-spacing: 0px;
+  color: #9c8885;
+  opacity: 1;
+  z-index: 2;
+}
+
+.rem5{
+  font-size: 5.5rem;
+}
+
+.rem1-5{
+  font-size: 1.5rem;
+}
+
+/*Estilo de las imagenes*/
+#adorno1,
+#adorno2,
+#adorno3,
+#adorno4,
+#adorno5 {
+  position: absolute;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  transform: rotate(180);
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+}
+
+#adorno1 {
+  left: -50%;
+}
+
+#adorno2 {
+  left: 50%;
+}
+
+#foto1 {
+  width: auto;
+  max-width: 100%;
+}
+
+#imgTemp{
+    position: absolute;
+    top: 78%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+/*Estilos especificos*/
+#partGrad {
+  position: absolute;
+  left: 30%;
+  top: 65%;
+}
+
+#camila {
+  position: absolute;
+  left: 10%;
+  top: 65%;
+}
+
+#fechaGrad{
+  position: absolute;
+  left: 30%;
+  top: 95%;
+  z-index: 2;
+}
+
+/*Estilos de la Cuenta Regresiva*/
+#cuentaRegresiva {
+  position: relative;
+  width: 100%;
+  left: 25%;
+  height: auto;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #9c8885;
+  text-transform: uppercase;
+  opacity: 1;
+  z-index: 2;
+}
+
+#mensaje{
+  position: relative;
+  left: -25%;
+}
+
+#cuentaRegresiva table {
+  width: 50%;
+  border-collapse: separate;
+  border-spacing: 5px 0;
+  margin-bottom: 5%;
+}
+
+#cuentaRegresiva td {
+  padding: 0;
+}
+
+#cuentaRegresiva p {
+  margin: 0;
+}
+
+#cuentaRegresiva .digitos{
+  font: normal normal 800 4.375rem "Open Sans";
+}
+
+#tarjeta{
+  width: 100%;
+}
+
+/* Estilos generales para dispositivos pequeños como celulares */
+@media (max-width: 480px) {
+  html {
+    font-size: 4px;
+  }
+
+  .textType1 {
+    font-size: 1rem;
+  }
+
+  .textType2 {
+    font-size: 3.5rem;
+  }
+
+  .rem5 {
+    font-size: 2.5rem;
+  }
+
+  .rem1-5 {
+    font-size: 1rem;
+  }
+
+  #cuentaRegresiva {
+    left: 10%;
+    width: 100%;
+  }
+
+  #cuentaRegresiva table {
+    width: 80%;
+  }
+
+  #cuentaRegresiva .digitos {
+    font-size: 3rem;
+  }
+
+  #partGrad {
+    font-size: calc(0.5rem + 1.2vw);
+    top: 65%;
+    left: calc(35vw);
+  }
+
+  #camila {
+    font-size: calc(1rem + 8vw);
+    top: 64%;
+    left: calc(6vw);
+  }
+
+  #fechaGrad {
+    font-size: calc(0.5rem + 1.5vw);
+    top: 93%;
+    left: calc(10rem);
+  }
+
+  #mensaje {
+    left: -10%;
+    font-size: 2rem;
+  }
+  
+}
+
+/* Estilos para dispositivos medianos como tablets y iPads */
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .textType1 {
+    font-size: 1rem;
+  }
+
+  .textType2 {
+    font-size: 3.5rem;
+  }
+
+  .rem5 {
+    font-size: 2.5rem;
+  }
+
+  .rem1-5 {
+    font-size: 1rem;
+  }
+
+  #cuentaRegresiva {
+    left: 10%;
+    width: 100%;
+  }
+
+  #cuentaRegresiva table {
+    width: 80%;
+  }
+
+  #cuentaRegresiva .digitos {
+    font-size: 3rem;
+  }
+
+  .marcoFotos {
+    left: -10%;
+    max-width: 100%;
+    max-height: 75%;
+    border: solid 0.5rem #d7a69f;
+  }
+
+  #partGrad {
+    font-size: calc(0.5rem + 1.2vw);
+    top: 65%;
+    left: calc(35vw);
+  }
+
+  #camila {
+    font-size: calc(1rem + 8vw);
+    top: 65%;
+    left: calc(6vw);
+  }
+
+  #fechaGrad {
+    top: 93%;
+    left: 35%;
+  }
+
+  #mensaje {
+    left: -10%;
+    font-size: 2rem;
+  }
+}
+
+/* Estilos para dispositivos medianos como tablets y iPads */
+@media (min-width: 769px) and (max-width: 938px){
+  html {
+    font-size: 11px;
+  }
+
+  .textType1 {
+    font-size: 1rem;
+  }
+
+  .textType2 {
+    font-size: 4rem;
+  }
+
+  .rem5 {
+    font-size: 2.5rem;
+  }
+
+  .rem1-5 {
+    font-size: 1rem;
+  }
+
+  #cuentaRegresiva {
+    left: 10%;
+    width: 100%;
+  }
+
+  #cuentaRegresiva table {
+    width: 80%;
+  }
+
+  #cuentaRegresiva .digitos {
+    font-size: 3rem;
+  }
+
+  .marcoFotos {
+    left: 0;
+    max-width: 80%;
+    max-height: 75%;
+    border: solid 0.5rem #d7a69f;
+  }
+
+  .pieFoto {
+    left: 0;
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  #partGrad {
+    font-size: calc(0.5rem + 1.2vw);
+    top: 65%;
+    left: calc(35vw);
+  }
+
+  #camila {
+    font-size: calc(1rem + 8vw);
+    top: 65%;
+    left: calc(5vw);
+  }
+
+  #fechaGrad {
+    top: 93%;
+    left: 35%;
+  }
+
+  #mensaje {
+    left: -10%;
+    font-size: 2rem;
+  }
+}
