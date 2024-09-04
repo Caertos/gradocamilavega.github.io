@@ -136,7 +136,6 @@ body {
 #cuentaRegresiva {
   position: relative;
   width: 100%;
-  left: 25%;
   height: auto;
   text-align: center;
   letter-spacing: 0px;
@@ -152,10 +151,9 @@ body {
 }
 
 #cuentaRegresiva table {
-  width: 50%;
-  border-collapse: separate;
-  border-spacing: 5px 0;
-  margin-bottom: 5%;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0 0;
 }
 
 #cuentaRegresiva td {
@@ -181,7 +179,7 @@ body {
   }
 
   .textType1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .textType2 {
@@ -196,17 +194,12 @@ body {
     font-size: 1rem;
   }
 
-  #cuentaRegresiva {
-    left: 10%;
-    width: 100%;
-  }
-
-  #cuentaRegresiva table {
-    width: 80%;
-  }
-
   #cuentaRegresiva .digitos {
-    font-size: 3rem;
+    font-size: 3.5rem;
+  }
+
+  #indicadores{
+    font-size: 2.5rem;
   }
 
   #partGrad {
@@ -241,7 +234,7 @@ body {
   }
 
   .textType1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .textType2 {
@@ -256,17 +249,12 @@ body {
     font-size: 1rem;
   }
 
-  #cuentaRegresiva {
-    left: 10%;
-    width: 100%;
-  }
-
-  #cuentaRegresiva table {
-    width: 80%;
-  }
-
   #cuentaRegresiva .digitos {
-    font-size: 3rem;
+    font-size: 3.5rem;
+  }
+
+  #indicadores{
+    font-size: 2.5rem;
   }
 
   .marcoFotos {
@@ -306,7 +294,7 @@ body {
   }
 
   .textType1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .textType2 {
@@ -321,32 +309,14 @@ body {
     font-size: 1rem;
   }
 
-  #cuentaRegresiva {
-    left: 10%;
-    width: 100%;
-  }
-
-  #cuentaRegresiva table {
-    width: 80%;
-  }
-
   #cuentaRegresiva .digitos {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
-  .marcoFotos {
-    left: 0;
-    max-width: 80%;
-    max-height: 75%;
-    border: solid 0.5rem #d7a69f;
+  #indicadores{
+    font-size: 2.5rem;
   }
-
-  .pieFoto {
-    left: 0;
-    width: 80%;
-    font-size: 1.5rem;
-  }
-
+  
   #partGrad {
     font-size: calc(0.5rem + 1.2vw);
     top: 65%;
